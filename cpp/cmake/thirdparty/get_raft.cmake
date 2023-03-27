@@ -86,7 +86,7 @@ endfunction()
 # CPM_raft_SOURCE=/path/to/local/raft
 find_and_configure_raft(VERSION          ${CUML_MIN_VERSION_raft}
       FORK             benfred
-      PINNED_TAG       post_distance_op
+      PINNED_TAG       fbe6f29a201270a0d12d6c41b4a3321851da5cd8 # post_distance_op
       EXCLUDE_FROM_ALL ${CUML_EXCLUDE_RAFT_FROM_ALL}
       # When PINNED_TAG above doesn't match cuml,
       # force local raft clone in build directory
